@@ -1,8 +1,8 @@
-def makeNegative(int: Int): Int ={
-  if (int > 0) {
-    int * -1
+def makeNegative(x: Int): Int ={
+  if (x > 0) {
+    x * -1
   } else {
-    int
+    x
   }
 }
 makeNegative(-5)
